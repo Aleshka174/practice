@@ -19,7 +19,6 @@ h2 {
     max-width: 1200px;
     background-color: #E6E6E6;
     padding: 5px;
-    height: 100%;
 }
 
 .header {
@@ -63,6 +62,7 @@ li a {
 .data {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .fullname {
@@ -72,11 +72,16 @@ li a {
 
 .myImg {
     margin-top: 150px;
-    padding-left: 20px;
+    padding: 0px 10px;
+    flex-basis: 450px;
+}
+.myPhoto {
+    margin-top: 50px;
     flex-basis: 450px;
 }
 
 .knowledge {
+    margin-top: 50px;
     display: flex;   
     justify-content: center;
 }

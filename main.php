@@ -20,10 +20,7 @@
           <h1>  <?php  echo $p  ?> </h1>
 
             <div class="data">
-                <div class="myImg">
-                    <?php  echo '<img src="/img/php.jpg">'; ?>                    
-                </div>
-
+                <?php include 'photo.inc.php' ?>
                 <div class="fullname">
                     <p> Меня зовут 
                     <?php echo $name, ' ', $surname . '<br>'; 
@@ -33,7 +30,7 @@
                     <p> Мне
                     <?php  echo $age;   ?>          
                     лет </p>
-                    <p> Мы научились создавать переменные </p>
+                    <p> Мы научились создавать разичные переменные </p>
                     <p> Изучили простые операции с ними </p>
                 </div>
             </div>
@@ -44,9 +41,9 @@
                     <?php   echo $a, ' ', $b, ' ', $c; ?> <br>
                                        
                     <?php
-                        $a = 10;
-                        $b = 20;
-                        $c = $a + $b;
+                        $a = 25;
+                        $b = 100;
+                        $c = $a * $b;
                         echo $c;
                     ?>   <br>                
                      <?php
@@ -56,11 +53,7 @@
             </div>
 
             <div class="article">
-                <p class="text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Recusandae asperiores ducimus dolore explicabo. Animi est amet quibusdam molestias! 
-                    Minus laudantium sapiente dignissimos possimus natus cumque delectus sed, accusantium totam quia?
-                </p>
+                <?php include 'text.inc.php' ?>
             </div>
         </div>
 
